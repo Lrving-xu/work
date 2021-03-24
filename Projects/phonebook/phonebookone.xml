@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PhoneDirectory>
+<DirectoryEntry>
+<Name> Lrving</Name>
+<Telephone>306</Telephone>
+</DirectoryEntry>
+<DirectoryEntry>
+<Name> xiaoming</Name>
+<Telephone>309</Telephone>
+<Telephone>132</Telephone>
+<Telephone>142</Telephone>
+</DirectoryEntry>
+<DirectoryEntry>
+<Name> alice</Name>
+<Telephone>927</Telephone>
+</DirectoryEntry>
+<DirectoryEntry>
+<Name> Bob</Name>
+<Telephone>926</Telephone>
+</DirectoryEntry>
+<DirectoryEntry>
+<Name> Carol</Name>
+<Telephone>075</Telephone>
+</DirectoryEntry>
+<DirectoryEntry>
+<Name> dail</Name>
+<Telephone>076</Telephone>
+</DirectoryEntry>
+<DirectoryEntry>
+<Name> julia</Name>
+<Telephone>078</Telephone>
+</DirectoryEntry>
+</PhoneDirectory>
