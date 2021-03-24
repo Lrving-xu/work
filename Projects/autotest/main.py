@@ -7,7 +7,7 @@
 # 展示信息
 
 def showMenu():
-    menu_info= """
+    menu_info = """
                    Htek 自动化管理系统
     ┍———————————————————————————————————————————-—┑
     │         ========主菜单========               | 
@@ -20,7 +20,10 @@ def showMenu():
     ┕————————————————————————————————————————————┙
     """
     print(menu_info)
+
+
 showMenu()
+
 
 def phone_information():
     phone_info = """
@@ -35,9 +38,27 @@ def phone_information():
     ┕————————————————————————————————————————————┙
     """
     print(phone_info)
-print("请选择：" )
+
+
+def testRail():
+    testRail_info = """
+    ┍————————————————————┑
+    | ======测试用例===== 
+    | 1 录入测试用例
+    | 2 查询测试用例
+    |
+    |
+    ┕————————————————————┙
+    """
+    print(testRail_info)
+
+
+print("请选择：", end="")
 number = int(input())
 if number == 1:
     phone_information()
-else:
-    print("---")
+elif number == 2:
+    testRail()
+elif number == 0:
+    print("已经返回到主界面")
+    showMenu()
